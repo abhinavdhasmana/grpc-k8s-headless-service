@@ -1,0 +1,5 @@
+FROM amazoncorretto:17
+#COPY target/docker-java-jar-0.0.1-SNAPSHOT.jar app.jar
+#COPY /Users/abdhasmana/Documents/Personal/sourcecode/grpc-k8s-headless-service/build/libs/grpc-k8s-headless-service-0.0.1-SNAPSHOT.jar server.jar
+COPY build/libs/grpc-k8s-headless-service-0.0.1-SNAPSHOT.jar server.jar
+ENTRYPOINT ["java","-jar","/server.jar"]
