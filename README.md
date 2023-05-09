@@ -9,7 +9,7 @@ It cover three scenarios:
 * gRPC client and gRPC server talking to each other via Headless service
 * gRPC client and gRPC server talking to each other with Istio proxy as a sidecar
 
-The details can be found on my [[blog]](https://medium.com/p/1fd33561d67a) 
+The details can be found on my [blog](https://medium.com/p/1fd33561d67a) 
 
 ## How to run it locally
 
